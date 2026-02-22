@@ -5,7 +5,7 @@ import ServicePage from './pages/ServicePage'
 
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
-
+import {Routes, Route} from 'react-router-dom'
 
 function App() {
 
@@ -17,8 +17,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/about" element={<About />}/>
-      <Route path="contact" element={<Contact />}/>
-      <Route path="ServicePage" element={<ServicePage />}/>
+      <Route path="/contact" element={<Contact />}/>
+      <Route path="/services" element={<ServicePage />}/>
     </Routes>
 
     <Footer/>
